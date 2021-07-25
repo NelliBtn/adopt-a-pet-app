@@ -14,7 +14,7 @@ const Search = () => {
       name: searchInputRef.current.value
     }).toString();
 
-    history.push(`/search?${searchQuery}`)
+    history.push(`/search?${searchQuery}`); // /search?name=fido
   };
 
   return (
