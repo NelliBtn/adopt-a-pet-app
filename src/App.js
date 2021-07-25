@@ -10,12 +10,14 @@ function App() {
     <Router>
       <Navigation />
 
+      <Switch>
         <Route path="/:type/:id">
           <PetDetailsPage />
         </Route>
         <Route path="/:type?">
           <HomePage />
         </Route>
+      </Switch>
 
     </Router>
   );
