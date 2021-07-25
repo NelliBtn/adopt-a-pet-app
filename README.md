@@ -1,3 +1,5 @@
+# Adopt a Pet
+
 Frontend "Adopt a pet" application built with React in order to practice React Router (including useHistory, useParams, useLocation, useRouteMatch and more)
 
 # Getting Started with Create React App
